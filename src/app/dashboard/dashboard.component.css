@@ -1,0 +1,85 @@
+.buttons-container {
+  display: flex;
+  justify-content: center; /* Centra los botones horizontalmente */
+  align-items: center; /* Centra los botones verticalmente */
+  flex-wrap: wrap; /* Permite que los botones se ajusten en varias líneas si es necesario */
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+
+.footer {
+  background: #343a40;
+  color: white;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgba(68, 141, 137, 0.8); /* Fondo blanco transparente */
+  margin-top: 20px; /* Espacio superior */
+}
+.card-body {
+  padding: 20px; /* Relleno interno */
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  margin-right: 10px;
+  max-height: 50px; /* Ajusta la altura del logo según tus necesidades */
+}
+.navbar-container {
+  border: 2px solid #ccc; /* Bordes del cuadrado */
+  border-radius: 20px; /* Opcional: redondear bordes */
+  padding: 25px; /* Espaciado interno */
+  background-color: #c7ca10; /* Color de fondo */
+  margin: 30px; /* Margen alrededor del cuadrado */
+}
+
+.logo-container {
+  border: 2px solid #ccc; /* Bordes del cuadrado */
+  border-radius: 10px; /* Opcional: redondear bordes */
+  padding: 15px; /* Espaciado interno */
+  background-color: #f1f5f7; /* Color de fondo */
+  margin: 20px; /* Margen alrededor del cuadrado */
+  text-align: center; /* Centrar el contenido */
+}
+
+/* Centrar el botón en su contenedor */
+.btn-primary {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+

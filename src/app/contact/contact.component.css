@@ -1,0 +1,73 @@
+.contact-box {
+  background-color: #007bff; /* Azul de Bootstrap */
+  color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-box h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.contact-box .form-group {
+  margin-bottom: 15px;
+}
+
+.contact-box .form-control {
+  border-radius: 4px;
+  background-color: #f8f9fa; /* Fondo claro para los campos del formulario */
+  border: 1px solid #ccc; /* Borde de los campos del formulario */
+}
+
+.contact-box .btn-primary {
+  background-color: #0056b3; /* Azul oscuro para el botón */
+  border-color: #0056b3; /* Borde del botón */
+}
+.footer {
+  background: #343a40;
+  color: white;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgba(68, 141, 137, 0.8); /* Fondo blanco transparente */
+  margin-top: 20px; /* Espacio superior */
+}
+.card-body {
+  padding: 20px; /* Relleno interno */
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  margin-right: 10px;
+  max-height: 50px; /* Ajusta la altura del logo según tus necesidades */
+}
+.navbar-container {
+  border: 2px solid #ccc; /* Bordes del cuadrado */
+  border-radius: 20px; /* Opcional: redondear bordes */
+  padding: 25px; /* Espaciado interno */
+  background-color: #c7ca10; /* Color de fondo */
+  margin: 30px; /* Margen alrededor del cuadrado */
+}
+
+.logo-container {
+  border: 2px solid #ccc; /* Bordes del cuadrado */
+  border-radius: 10px; /* Opcional: redondear bordes */
+  padding: 15px; /* Espaciado interno */
+  background-color: #f1f5f7; /* Color de fondo */
+  margin: 20px; /* Margen alrededor del cuadrado */
+  text-align: center; /* Centrar el contenido */
+}
+
+  

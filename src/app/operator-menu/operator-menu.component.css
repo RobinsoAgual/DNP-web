@@ -1,0 +1,130 @@
+/* Estilos para la sección del menú del operador */
+.operator-menu .card {
+    border-radius: 15px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .operator-menu .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .operator-menu .card-body {
+    padding: 30px;
+  }
+  
+  .operator-menu .card-body i {
+    margin-bottom: 15px;
+  }
+  
+  .operator-menu .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  
+  .operator-menu .card-text {
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+  
+  .operator-menu .btn {
+    margin-top: 15px;
+  }
+  
+  /* Estilos para el footer */
+  .footer {
+    background-color: #343a40;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  .footer .social-icons a {
+    color: #ffffff;
+    margin: 0 10px;
+    transition: color 0.2s;
+  }
+  
+  .footer .social-icons a:hover {
+    color: #d4d4d4;
+  }
+  
+  /* Estilos adicionales para el header y navbar */
+  .header {
+    background-color: #f8f9fa;
+    padding: 15px;
+  }
+  
+  .header .navbar-light .navbar-nav .nav-link {
+    color: #495057;
+    transition: color 0.2s;
+  }
+  
+  .header .navbar-light .navbar-nav .nav-link:hover {
+    color: #0056b3;
+  }
+  
+  .header .logo-container .logo h1 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin: 0;
+  }
+  
+  .header .navbar-toggler {
+    border: none;
+  }
+  
+  .header .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  
+  .header .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .header .navbar-nav .nav-item {
+    margin-left: 15px;
+  }
+  
+  .header .navbar-nav .nav-link {
+    font-size: 1rem;
+  }
+
+
+  
+.footer {
+  background: #343a40;
+  color: white;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  margin-right: 10px;
+  max-height: 50px; /* Ajusta la altura del logo según tus necesidades */
+}
+.navbar-container {
+  border: 2px solid #ccc; /* Bordes del cuadrado */
+  border-radius: 20px; /* Opcional: redondear bordes */
+  padding: 25px; /* Espaciado interno */
+  background-color: #c7ca10; /* Color de fondo */
+  margin: 30px; /* Margen alrededor del cuadrado */
+}
+
+.logo-container {
+  border: 2px solid #ccc; /* Bordes del cuadrado */
+  border-radius: 10px; /* Opcional: redondear bordes */
+  padding: 15px; /* Espaciado interno */
+  background-color: #f1f5f7; /* Color de fondo */
+  margin: 20px; /* Margen alrededor del cuadrado */
+  text-align: center; /* Centrar el contenido */
+}
+  

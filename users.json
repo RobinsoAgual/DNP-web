@@ -1,0 +1,106 @@
+[
+  {
+    "email": "ragual@ups.edu.ec",
+    "password": "adm123",
+    "role": "1"
+  },
+  {
+    "email": "landino@ups.edu.ec",
+    "password": "usua123",
+    "role": "2"
+  },
+  {
+    "email": "spiderman@ups.edu.ec",
+    "password": "admin123"
+  },
+  {
+    "email": "nuevo@ups.edu.ec",
+    "password": "password123",
+    "role": 1
+  },
+  {
+    "email": "robinagual@gmail.com",
+    "password": "123451",
+    "role": "2"
+  },
+  {
+    "email": "mario@ups.edu.ec",
+    "password": "mario123",
+    "role": "1"
+  },
+  {
+    "email": "robinagual@ups.edu.ec",
+    "password": "admin123",
+    "role": "2"
+  },
+  {
+    "email": "rockl@ups.edu.ec",
+    "password": "1234dota",
+    "role": "1"
+  },
+  {
+    "email": "ricardo@ups.edu.ec",
+    "password": "arroz123",
+    "role": "2"
+  },
+  {
+    "email": "luis@ups.edu.ec",
+    "password": "1234ad",
+    "role": 1
+  },
+  {
+    "email": "leagual@ups.edu.ec",
+    "password": "1234ro",
+    "role": 1
+  },
+  {
+    "email": "nuevo1@ups.edu.ec",
+    "password": "123domi",
+    "role": 1
+  },
+  {
+    "email": "nuevo2@ups.edu.ec",
+    "password": "1234doita",
+    "role": 1
+  },
+  {
+    "email": "nuevo3@ups.edu.ec",
+    "password": "123domi",
+    "role": 2
+  },
+  {
+    "email": "nuevo4@ups.edu.ec",
+    "password": "1234dota",
+    "role": 2
+  },
+  {
+    "email": "nuevo5@ups.edu.ec",
+    "password": "1234gato",
+    "role": 1
+  },
+  {
+    "email": "admin@ups.edu.ec",
+    "password": "1234hora",
+    "role": 1
+  },
+  {
+    "email": "nuevo10@ups.edu.ec",
+    "password": "nuevo12",
+    "role": 2
+  },
+  {
+    "email": "nuevo11@ups.edu.ec",
+    "password": "123domi",
+    "role": 1
+  },
+  {
+    "email": "antony@ups.edu.ec",
+    "password": "anto123",
+    "role": 2
+  },
+  {
+    "email": "nuevo12@ups.edu.ec",
+    "password": "1234nuevo",
+    "role": 1
+  }
+]

@@ -1,0 +1,75 @@
+<div class="container">
+    <header class="d-flex justify-content-between py-3">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-jLKHWMZnbAdT4eOYMRiW7d8TRd1fmNxl41ENm3T6A0RVdWZUNeCguS6f9YgFlP1i" crossorigin="anonymous">
+      <div class="logo-container">
+        <div class="logo">
+          <a routerLink="/home">
+            <img src="https://mms.businesswire.com/media/20230702248979/es/838381/4/DNP_CorporateMark_rgb_4c_20160826.jpg?download=1" alt="DNP Logo" style="max-height: 50px;">
+          </a>
+          <h1 class="text-primary text-center">Registro de Activos de Información</h1>
+        </div>
+      </div>
+  
+  <!-- Otros elementos del menú -->
+
+ 
+    </header>
+    
+    <a routerLink="/logout" class="btn btn-danger">Cerrar sesión</a>
+    <main>
+      <section class="operator-menu mt-4">
+        <div class="container">
+          <h2 class="text-center mb-4">Menu de opciones</h2>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4">
+                <div class="card-body text-center">
+                  <i class="fas fa-file-alt fa-3x mb-3 text-primary"></i>
+                  <h5 class="card-title">Información de la revisión</h5>
+                  <p class="card-text">Revise la información en un informe de texto que se puede exportar como Excel y PDF.</p>
+                  <a routerLink="/report" class="btn btn-primary">Ir a Informes</a>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4">
+                <div class="card-body text-center">
+                  <i class="fas fa-chart-pie fa-3x mb-3 text-success"></i>
+                  <h5 class="card-title">Dashboard</h5>
+                  <p class="card-text">Ver 3 consultas visualizadas con diferentes gráficos estadísticos: circular, de barras, etc.</p>
+                  <a routerLink="/dashboard" class="btn btn-success">View Dashboard</a>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4">
+                <div class="card-body text-center">
+                  <i class="fas fa-key fa-3x mb-3 text-warning"></i>
+                  <h5 class="card-title">Actualiza contraseña</h5>
+                  <p class="card-text">Actualice su contraseña para garantizar la seguridad de su cuenta.</p>
+                  <a routerLink="/change-password" class="btn btn-warning">Actualiza la contraseña</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer bg-dark text-white py-3 text-center mt-5">
+      <p>&copy; 2024 DNP - Registro de Activos de Información. All rights reserved.</p>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/DNP" target="_blank" class="text-white mx-2">
+          <i class="fab fa-facebook-square fa-2x"></i>
+        </a>
+        <a href="https://www.instagram.com/DNP" target="_blank" class="text-white mx-2">
+          <i class="fab fa-instagram fa-2x"></i>
+        </a>
+        <a href="https://www.twitter.com/DNP" target="_blank" class="text-white mx-2">
+          <i class="fab fa-twitter-square fa-2x"></i>
+        </a>
+      </div>
+    </footer>
+  </div>
+  

@@ -1,0 +1,109 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+  }
+
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .hero-section {
+    padding: 100px 0;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .info-section {
+    text-align: center;
+  }
+  
+  .info-box {
+    background: rgb(184, 98, 98);
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  .data-section {
+    padding: 50px 0;
+  }
+  
+  .footer {
+    background: #343a40;
+    color: white;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(68, 141, 137, 0.8); /* Fondo blanco transparente */
+    margin-top: 20px; /* Espacio superior */
+  }
+  
+  .card-body {
+    padding: 20px; /* Relleno interno */
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    margin-right: 10px;
+    max-height: 50px; /* Ajusta la altura del logo según tus necesidades */
+  }
+  .navbar-container {
+    border: 2px solid #ccc; /* Bordes del cuadrado */
+    border-radius: 20px; /* Opcional: redondear bordes */
+    padding: 25px; /* Espaciado interno */
+    background-color: #c7ca10; /* Color de fondo */
+    margin: 30px; /* Margen alrededor del cuadrado */
+  }
+
+  .logo-container {
+    border: 2px solid #ccc; /* Bordes del cuadrado */
+    border-radius: 10px; /* Opcional: redondear bordes */
+    padding: 15px; /* Espaciado interno */
+    background-color: #f1f5f7; /* Color de fondo */
+    margin: 20px; /* Margen alrededor del cuadrado */
+    text-align: center; /* Centrar el contenido */
+  }
+  .text-primary {
+    color: #004085; /* Asegúrate de que el color tenga buen contraste con el fondo blanco */
+  }
+  
+  .footer {
+  background-color: #000; /* Fondo oscuro */
+  color: #fff; /* Texto claro */
+}
+
+.footer a {
+  color: #FFD700; /* Asegurando buen contraste con el fondo oscuro */
+}
+
+    
+  
